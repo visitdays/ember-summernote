@@ -19,7 +19,7 @@ export default Ember.Component.extend({
     let height = this.get('height');
     let placeholder = this.get('placeholder');
 
-    this.$('#summernote').summernote({
+    this.$('.summernote').summernote({
       height: height,
       placeholder: placeholder,
       toolbar: [
